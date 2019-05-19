@@ -13,4 +13,13 @@ public class MathUtils {
 		return a + b;	
 	}
 
+	/*
+	 * 
+	 */
+	public double computeCircleArea(double radius) {
+		//Pi*r^2
+		double area = Math.PI * radius * radius;
+		return area;
+	}
+	
 }
